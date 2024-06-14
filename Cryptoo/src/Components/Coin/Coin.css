@@ -1,0 +1,84 @@
+
+
+.coin {
+      display: flex;
+      flex-direction: column;
+      align-items:center;
+      justify-content: space-evenly;
+      margin-top: 20px;
+      margin-inline: auto;
+      width: 100%; /* Adjust width as needed */
+      max-width: 1000px; /* Adjust max-width as needed */
+      min-height: 100vh;
+    }
+    
+    .coin-name {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    
+    .coin-name img {
+      width: 50px; /* Adjust size as needed */
+      height: 50px; /* Adjust size as needed */
+      margin-right: 10px;
+      border-radius: 50%; /* Makes the image round */
+    }
+    
+    .coin-name p {
+      font-size: 18px;
+      font-weight: bold;
+      margin: 0;
+    }
+    
+    .coin-details {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+    }
+    
+    .coin-table {
+       /* Adjust width as needed */
+      max-width: 480px; /* Adjust max-width as needed */
+    }
+    
+    .coin-table table {
+      width: 100%;
+      border-collapse: collapse;
+      border: 1px solid #663399; /* Purple border */
+      background-color: #2f2f4f; /* Dark purple background */
+      color: #ffffff; /* White text */
+      border-radius: 10px;
+    }
+    
+    .coin-table th,
+    .coin-table td {
+      border: 1px solid #663399; /* Purple border */
+      padding: 14px;
+      text-align: center;
+    }
+    
+    .coin-table th {
+      background-color: #4b4b7c; /* Dark purple header */
+      font-weight: bold;
+    }
+    
+    .coin-table tbody tr:nth-child(even) {
+      background-color: #3d3d5c; /* Darker purple background for even rows */
+    }
+    
+    .coin-table tbody tr:hover {
+      background-color: #463b5a; /* Darker purple background on hover */
+    }
+    
+    .coin-chart {
+     min-width: 100%; /* Adjust width as needed */
+       /* Adjust max-width as needed */
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin-inline: auto;
+      margin-top: 20px;
+    }
+    

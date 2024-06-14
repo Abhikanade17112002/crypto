@@ -1,0 +1,16 @@
+<svg width="300" height="100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Transparent Background -->
+  <rect x="0" y="0" width="300" height="100" fill="none" />
+
+  <!-- Crypto Icon -->
+  <g transform="translate(50, 50)">
+    <!-- Outer circle -->
+    <circle cx="0" cy="0" r="40" fill="#f7931a" />
+
+    <!-- Inner shape (e.g., B) -->
+    <path d="M -25,0 A 25,25 0 1,1 25,0 L 0,-12 Z" fill="#2d2d2d" />
+  </g>
+
+  <!-- Text -->
+  <text x="100" y="75" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#000000">CryptoNexus</text>
+</svg>
